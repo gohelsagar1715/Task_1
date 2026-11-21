@@ -39,7 +39,7 @@
             android:layout_marginTop="6dp"
             android:text="Login to your account"
             android:textColor="#777777"
-            android:textSize="15sp"/>
+            android:textSize="20sp"/>
 
         <!-- Email -->
         <LinearLayout
