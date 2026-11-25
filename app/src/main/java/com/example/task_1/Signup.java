@@ -23,7 +23,6 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        // Initialize Views
         edtName = findViewById(R.id.edtName);
         edtEmail = findViewById(R.id.edtEmail);
         edtMobile = findViewById(R.id.edtMobile);
@@ -33,7 +32,6 @@ public class Signup extends AppCompatActivity {
         btnSignup = findViewById(R.id.btnSignup);
         txtLogin = findViewById(R.id.txtLogin);
 
-        // Signup Button
         btnSignup.setOnClickListener(v -> {
 
             String name = edtName.getText().toString().trim();
@@ -78,7 +76,6 @@ public class Signup extends AppCompatActivity {
             }
         });
 
-        // Login Click
         txtLogin.setOnClickListener(v -> {
             finish();
         });
